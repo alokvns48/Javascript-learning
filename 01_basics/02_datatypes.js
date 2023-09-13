@@ -4,12 +4,12 @@
 
 /*Data Types*/
 
-let name = "hitesh"
+let name = 'Hitesh'
 let age = 18
 let isLoggedIn = false
 
 // number
-// bigint
+// bigint ==>
 // string => ""
 // boolean => true/FALSE
 // null =>  standalone value
@@ -18,6 +18,23 @@ let isLoggedIn = false
 
 console.log(typeof age)
 
+console.log(name)
+
+console.log(isLoggedIn)
+
+console.log(age)
+
 console.log(typeof undefined)
 
 console.log(typeof null)
+
+console.log('alok')
+
+console.log(typeof age);
+
+
+
+
+
+
+
