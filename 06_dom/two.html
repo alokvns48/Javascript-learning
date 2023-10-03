@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM | Chai aur Code</title>
+</head>
+<body style="background-color: #212121; color: white;">
+<div class="parent">
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Wednesday</div>
+    <div class="day">Thrusday</div>
+</div>
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children);      // printing all the child of parent
+    // console.log(parent.children[1].innerHTML);
+
+    // for (let i =0 ;i< parent.children.length; i++){
+    // console.log(parent.children[i].innerHTML)
+    // }
+
+    parent.children[1].style.color = "red"
+    console.log(parent.firstElementChild);       // printing the first child element
+
+    const dayOne = document.querySelector('.day')
+    console.log(dayOne)
+
+    console.log(dayOne.parentElement)        // printing the parent element
+    console.log(dayOne.nextElementSibling)           //printing the next sibling element
+
+    /*******Node List******/
+
+    console.log("NODES: ", parent.childNodes)
+
+</script>
+</body>
+</html>
