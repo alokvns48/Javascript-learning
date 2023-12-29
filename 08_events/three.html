@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Chai Aur Javascript</h1>
+<button id="start">Start</button>
+<button id="stop">Stop</button>
+</body>
+<script>
+    // setInterval() -- run continuously at interval
+    const sayDate = function (str){
+        console.log(str, Date.now());
+    }
+
+    // const intervalId = setInterval(sayDate, 1000,"hi")
+
+    document.querySelector('#start').addEventListener('click',function (){
+        intervalId = setInterval(sayDate, 1000,"hi")
+    })
+
+    document.querySelector('#stop').addEventListener('click',function (){
+        clearInterval(intervalId)
+    })
+
+
+
+
+</script>
+</html>

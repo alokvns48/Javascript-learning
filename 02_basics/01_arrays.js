@@ -43,7 +43,7 @@ console.log("B ",myArr);
 const mynn2= myArr.splice(1,3)  //3 is included /*It manipulate the original Array*/
 
 console.log(mynn2); //[4,6,8]
-console.log("C ",myArr)
+console.log("C ",myArr)  // C [2, 10]
 
 
 

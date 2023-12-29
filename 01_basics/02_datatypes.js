@@ -24,9 +24,9 @@ console.log(isLoggedIn)
 
 console.log(age)
 
-console.log(typeof undefined)
+console.log(typeof undefined)   //undefined
 
-console.log(typeof null)
+console.log(typeof null)  //object
 
 console.log('alok')
 

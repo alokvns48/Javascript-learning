@@ -2,14 +2,14 @@
 
 let myDate = new Date()
 
-console.log(myDate.toDateString());
+console.log(myDate.toDateString());  //Thu Nov 23 2023
 //
-console.log(myDate.toLocaleString());
+console.log(myDate.toLocaleString());  // 23/11/2023, 4:28:00 pm
 //
 // console.log(typeof myDate);
 
 let myCreatedDate= new Date(2023,00,23)
-console.log(myCreatedDate);
+console.log(myCreatedDate);  //2023-01-22T18:30:00.000Z
 // console.log(myCreatedDate.toLocaleString())
 //
 // let timeStamp = Date.now()
@@ -25,4 +25,4 @@ console.log(newDate.getDate())
 
 console.log(newDate.toLocaleString('default', {
     weekday: "long"
-}));
+}));   // Thursday

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="stop">Stop</button>
+
+</body>
+<script>
+
+    //setTimeout() - run only once
+   const sayAlok = function(){
+       console.log("alok");
+   }
+   const changeText = function (){
+       document.querySelector('h1').innerHTML = "Best Js Series"
+   }
+
+  const changeMe = setTimeout(changeText,2000)
+
+   document.querySelector('#stop').addEventListener('click',function(){
+       clearTimeout(changeMe);
+       console.log("Stopped");
+   })
+
+</script>
+</html>
